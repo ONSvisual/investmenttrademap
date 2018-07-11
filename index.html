@@ -101,11 +101,20 @@
 	}
 
 	.countries {
-		stroke: #5F7682;
+    stroke: #ccc;
     stroke-width: 0.05%;
     	/*fill: #EAEAEA; */
     fill: url(#diagonalHatch);
 		cursor:pointer;
+    pointer-events: none;
+	}
+
+  .countries-selectable {
+		stroke: #5F7682;
+    stroke-width: 0.05%;
+    fill: #EAEAEA;
+		cursor:pointer;
+    pointer-events: all;
 	}
 
 	.countries_highlights {
